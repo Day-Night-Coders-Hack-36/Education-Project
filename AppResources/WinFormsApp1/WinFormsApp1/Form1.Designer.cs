@@ -53,6 +53,7 @@ namespace WinFormsApp1
             this.thirdControl1 = new WinFormsApp1.ThirdControl();
             this.fourthControl1 = new WinFormsApp1.FourthControl();
             this.fifthControl1 = new WinFormsApp1.FifthControl();
+            this.sixthControl1 = new WinFormsApp1.SixthControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -116,6 +117,7 @@ namespace WinFormsApp1
             this.button5.Text = "  ABOUT";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -271,6 +273,7 @@ namespace WinFormsApp1
             this.button7.TabIndex = 12;
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button12
             // 
@@ -286,6 +289,7 @@ namespace WinFormsApp1
             this.button12.TabIndex = 13;
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // checkedListBox1
             // 
@@ -349,11 +353,19 @@ namespace WinFormsApp1
             this.fifthControl1.Size = new System.Drawing.Size(926, 411);
             this.fifthControl1.TabIndex = 21;
             // 
+            // sixthControl1
+            // 
+            this.sixthControl1.Location = new System.Drawing.Point(162, 160);
+            this.sixthControl1.Name = "sixthControl1";
+            this.sixthControl1.Size = new System.Drawing.Size(1172, 505);
+            this.sixthControl1.TabIndex = 22;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 566);
+            this.Controls.Add(this.sixthControl1);
             this.Controls.Add(this.fifthControl1);
             this.Controls.Add(this.fourthControl1);
             this.Controls.Add(this.thirdControl1);
@@ -407,6 +419,7 @@ namespace WinFormsApp1
         private ThirdControl thirdControl1;
         private FourthControl fourthControl1;
         private FifthControl fifthControl1;
+        private SixthControl sixthControl1;
     }
 }
 
