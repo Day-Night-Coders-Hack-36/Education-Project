@@ -9,12 +9,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RocknRoll+One">
-    <h1 style="color: white; font-family: RocknRoll One; height: 5%; padding-left: 28%; padding-bottom: 2%;
-    padding-top: 2%; background-color:#10B981">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <h1 class="header">
         Registration Page ( For New Users )
     </h1>
 </head>
 <style>
+    .header{color: white;
+    font-family: Kanit;
+    height: 5%;
+    padding-left: 28%;
+    padding-bottom: 2%; 
+    text-shadow: 3px 3px rgba(99, 86, 86, 0.733);
+    padding-top: 2%;
+    background-color:#10B981
+    }
     .Font {
         color: black;
         font-size: 20px;
@@ -46,6 +55,7 @@
         background-color: #10B981;
         font-family: Roboto;
         border-radius: 2mm;
+        text-shadow: 1px 1px rgba(53, 50, 50, 0.733);
         font-size: 15px;
 padding: 10px 20px 10px 20px;
     }
@@ -70,21 +80,21 @@ padding: 10px 20px 10px 20px;
             <label for="studentname">
                 Student Name :
             </label>
-            <input type="text" name="StudentName" id="studentname" class="Box">
+            <input type="text" name="StudentName" placeholder="Student Name" id="studentname" class="Box">
         </div>
         <br>
         <div class="Font">
             <label for="fname">
                 Father's Name :
             </label>
-            <input type="text" name="FatherName" id="fname" class="Box">
+            <input type="text" name="FatherName" placeholder="Father's Name" id="fname" class="Box">
         </div>
         <br>
         <div class="Font" style="padding-left: 34.4%;">
             <label for="mname">
                 Mother's Name :
             </label>
-            <input type="text" name="MotherName" id="mname" class="Box">
+            <input type="text" name="MotherName" placeholder="Mother's Name" id="mname" class="Box">
         </div>
         </div>
         <br>
@@ -99,22 +109,28 @@ padding: 10px 20px 10px 20px;
             <label for="age" class="Font" style="padding-left: 42%;">
                 Age :
             </label>
-            <input type="number" id="age" name="age" class="Box">
+            <input type="number" id="age" name="age" placeholder="Age" class="Box">
         </div>
         <br>
         <div class="Font2" style="padding-left: 7.3%;">
             <label for="bldgrp1" class="Font">
                 Gender :
             </label>
-            &nbsp;
-            Male
-            <input type="radio" name="Gender">
-            &nbsp;
-            Female
-            <input type="radio" name="Gender">
-            &nbsp;
-            Others
-            <input type="radio" name="Gender">
+            <label for="male">
+                &nbsp;
+                Male
+            </label> 
+            <input type="radio" id="male" name="Gender">
+            <label for="female">
+                &nbsp;
+                Female
+            </label> 
+            <input type="radio" id="female" name="Gender">
+            <label for="others">
+                &nbsp;
+                Others
+            </label> 
+            <input type="radio" id="others" name="Gender">
         </div>
 
 
@@ -136,17 +152,17 @@ padding: 10px 20px 10px 20px;
             </select>
         </div>
         <br>
-        <div class="Font" style="padding-left: 27.6%;">
+        <div class="Font" style="padding-left: 36%;">
             <label for="mail">
-                Mail Address (Username) :
+                Mail Address :
             </label>
-            <input type="email" name="username" id="mail" class="Box">
+            <input type="email" name="username" placeholder="Username" id="mail" class="Box">
         </div> <br>
         <div class="Font" style="padding-left: 38%;">
             <label for="pswd">
                 Password :
             </label>
-            <input type="password" name="password" id="pswd" class="Box">
+            <input type="password" name="password" placeholder="Password" id="pswd" class="Box">
         </div> <br>
         <div class="Font" style="padding-left: 39.2%;">
             <label for="adrs">
@@ -162,9 +178,9 @@ padding: 10px 20px 10px 20px;
             </label>
         </div> <br>
         <div class="Font" style="padding-left: 39%;">
-            <input type="submit" value="Submit Now" class="Box2">
-            &nbsp&nbsp
-            <input type="reset" value="Reset Now" class="Box2">
+            <input type="submit" value="Submit" class="Box2">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset" class="Box2">
         </div>
         <br>
     </form>
