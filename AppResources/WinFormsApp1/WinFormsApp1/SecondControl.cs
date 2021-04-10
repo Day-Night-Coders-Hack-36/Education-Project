@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace WinFormsApp1
 {
@@ -18,6 +19,16 @@ namespace WinFormsApp1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo(@"Home-page.html")
+            {
+                UseShellExecute = true
+            };
+            p.Start();
         }
     }
 }

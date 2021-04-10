@@ -22,6 +22,9 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = button2.Height;
+            SidePanel.Top = button2.Top;
+            fifthControl1.BringToFront();
 
         }
 
@@ -106,6 +109,21 @@ namespace WinFormsApp1
             SidePanel.Height = button1.Height;
             SidePanel.Top = button1.Top;
             firstControl1.BringToFront();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button4.Height;
+            SidePanel.Top = button4.Top;
+            thirdControl1.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button6.Height;
+            SidePanel.Top = button6.Top;
+            fourthControl1.BringToFront();
+
         }
     }
 }

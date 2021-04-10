@@ -50,6 +50,9 @@ namespace WinFormsApp1
             this.firstControl1 = new WinFormsApp1.FirstControl();
             this.firstControl2 = new WinFormsApp1.FirstControl();
             this.secondControl1 = new WinFormsApp1.SecondControl();
+            this.thirdControl1 = new WinFormsApp1.ThirdControl();
+            this.fourthControl1 = new WinFormsApp1.FourthControl();
+            this.fifthControl1 = new WinFormsApp1.FifthControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -95,6 +98,7 @@ namespace WinFormsApp1
             this.button6.Text = "  FEATURES";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -129,6 +133,7 @@ namespace WinFormsApp1
             this.button4.Text = "  SIGN IN";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -323,11 +328,35 @@ namespace WinFormsApp1
             this.secondControl1.Size = new System.Drawing.Size(947, 406);
             this.secondControl1.TabIndex = 18;
             // 
+            // thirdControl1
+            // 
+            this.thirdControl1.Location = new System.Drawing.Point(177, 160);
+            this.thirdControl1.Name = "thirdControl1";
+            this.thirdControl1.Size = new System.Drawing.Size(964, 418);
+            this.thirdControl1.TabIndex = 19;
+            // 
+            // fourthControl1
+            // 
+            this.fourthControl1.Location = new System.Drawing.Point(162, 151);
+            this.fourthControl1.Name = "fourthControl1";
+            this.fourthControl1.Size = new System.Drawing.Size(1008, 458);
+            this.fourthControl1.TabIndex = 20;
+            // 
+            // fifthControl1
+            // 
+            this.fifthControl1.Location = new System.Drawing.Point(162, 151);
+            this.fifthControl1.Name = "fifthControl1";
+            this.fifthControl1.Size = new System.Drawing.Size(926, 411);
+            this.fifthControl1.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 566);
+            this.Controls.Add(this.fifthControl1);
+            this.Controls.Add(this.fourthControl1);
+            this.Controls.Add(this.thirdControl1);
             this.Controls.Add(this.secondControl1);
             this.Controls.Add(this.firstControl2);
             this.Controls.Add(this.firstControl1);
@@ -375,6 +404,9 @@ namespace WinFormsApp1
         private FirstControl firstControl1;
         private FirstControl firstControl2;
         private SecondControl secondControl1;
+        private ThirdControl thirdControl1;
+        private FourthControl fourthControl1;
+        private FifthControl fifthControl1;
     }
 }
 
