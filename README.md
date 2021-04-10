@@ -14,14 +14,14 @@
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
   
 ## Presentation Link:
-  <a href="https://docs.google.com/presentation/d/1sMBgR50JUua90o9iuRHr0d_wfG2vZL_HK-VKsTSd5cY/edit?usp=sharing"> PPT Link </a>
+  <a href="https://drive.google.com/file/d/1bk2yb_vLmpJdBr8fD2WyrpXKqdHje3Eh/view?usp=sharing"> PPT Link </a>
 
 ## Technology Stack:
   1) Node.JS
   2) Firebase
   3) C#
   4) CloudFare
-  5) 
+  5) Visual Studio
 ## Contributors:
 
 Team Name: Day-Night Coders
