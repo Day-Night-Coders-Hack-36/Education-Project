@@ -1,6 +1,6 @@
 # Education-Project :: Education Mania
 ![EducationMania Logo](https://user-images.githubusercontent.com/81418590/114268975-c5ea5880-9a21-11eb-8619-6c9a238e9111.jpeg)
-<h1 align="center">Hack36 Template Readme</h1>
+<h1 align="center">Hack36 Project Details/h1>
 <p align="center">
 </p>
 
@@ -15,17 +15,13 @@
   
 ## Presentation Link:
   <a href="https://docs.google.com/presentation/d/1sMBgR50JUua90o9iuRHr0d_wfG2vZL_HK-VKsTSd5cY/edit?usp=sharing"> ppt link here </a>
-  
-  
-## Table of Contents:
 
 ## Technology Stack:
   1) Node.JS
   2) Firebase
   3) C#
   4) CloudFare
-  
-
+  5) 
 ## Contributors:
 
 Team Name: Day-Night Coders
