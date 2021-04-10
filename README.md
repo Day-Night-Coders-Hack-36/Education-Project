@@ -11,7 +11,7 @@
   We have made a project centered around the theme education where we have tried to implement solutions which we feel can improve the way education is delivered online. We have tried to integrate hands on learning experience for the user.
   
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
+  <a href="https://drive.google.com/file/d/1UXgS_dB4ba9DjYmUJYRzquN7Phf27E5E/view?usp=sharing">Video Link</a>
   
 ## Presentation Link:
   <a href="https://drive.google.com/file/d/1bk2yb_vLmpJdBr8fD2WyrpXKqdHje3Eh/view?usp=sharing"> PPT Link </a>
