@@ -14,7 +14,7 @@
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
   
 ## Presentation Link:
-  <a href="https://docs.google.com/presentation/d/1sMBgR50JUua90o9iuRHr0d_wfG2vZL_HK-VKsTSd5cY/edit?usp=sharing"> ppt link here </a>
+  <a href="https://docs.google.com/presentation/d/1sMBgR50JUua90o9iuRHr0d_wfG2vZL_HK-VKsTSd5cY/edit?usp=sharing"> PPT Link </a>
 
 ## Technology Stack:
   1) Node.JS
