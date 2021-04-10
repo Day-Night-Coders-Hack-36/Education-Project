@@ -8,32 +8,32 @@
 
 
 ## Introduction:
-  Intro of the project
+  We have made a project centered around the theme education where we have tried to implement solutions which we feel can improve the way education is delivered online. We have tried to integrate hands on learning experience for the user.
   
 ## Demo Video Link:
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
   
 ## Presentation Link:
-  <a href="https://docs.google.com/presentation/d/1NEbqpM6J6UkmHN_J6NsgOhKvDU6fkfnli4OIg1lh-pk/edit?usp=sharing"> ppt link here </a>
+  <a href="https://docs.google.com/presentation/d/1sMBgR50JUua90o9iuRHr0d_wfG2vZL_HK-VKsTSd5cY/edit?usp=sharing"> ppt link here </a>
   
   
 ## Table of Contents:
 
 ## Technology Stack:
   1) Node.JS
-  2) Google Collab
-  3) Javafx
-  4) Machine Learning
+  2) Firebase
+  3) C#
+  4) CloudFare
   
 
 ## Contributors:
 
-Team Name: OP Squad
+Team Name: Day-Night Coders
 
-* [Anuj Modi](https://github.com/descifrado)
-* [Arsh Singh](https://github.com/iosdev474)
-* [Shashwat Pandey](https://github.com/shashwat1998)
-* [Manas Uniyal](https://github.com/ManasUniyal)
+* [Dhanraj Chaurasia](https://github.com/dhanrajchaurasia)
+* [Ashutosh Suthar](https://github.com/ashutoshsuthar2020)
+* [Nandan Kumar](https://github.com/DE-nandan)
+* [Kunal Yadav](https://github.com/metakunal)
 
 
 ### Made at:
