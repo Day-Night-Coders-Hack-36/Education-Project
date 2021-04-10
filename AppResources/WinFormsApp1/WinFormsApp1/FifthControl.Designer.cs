@@ -43,9 +43,9 @@ namespace WinFormsApp1
             this.label1.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(62, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 57);
+            this.label1.Size = new System.Drawing.Size(206, 57);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Register";
+            this.label1.Text = "SIGN UP";
             // 
             // label3
             // 
@@ -55,8 +55,8 @@ namespace WinFormsApp1
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(697, 81);
             this.label3.TabIndex = 6;
-            this.label3.Text = "If you still have not Registered then you\r\n\r\ncan register here to get benefitied " +
-    "by being connected to us";
+            this.label3.Text = "If you still have not Sign Up then you\r\n\r\ncan register here to get benefitied by " +
+    "being connected to us";
             // 
             // button1
             // 
@@ -67,13 +67,14 @@ namespace WinFormsApp1
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(189, 276);
+            this.button1.Location = new System.Drawing.Point(230, 276);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(309, 85);
+            this.button1.Size = new System.Drawing.Size(235, 85);
             this.button1.TabIndex = 9;
-            this.button1.Text = "    Register Here";
+            this.button1.Text = "  SIGN UP";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 

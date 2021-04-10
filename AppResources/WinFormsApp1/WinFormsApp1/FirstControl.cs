@@ -19,7 +19,7 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             var p = new Process();
-            p.StartInfo = new ProcessStartInfo(@"Home-page.html")
+            p.StartInfo = new ProcessStartInfo(@"index.html")
             {
                 UseShellExecute = true
             };

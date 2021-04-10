@@ -150,7 +150,7 @@ namespace WinFormsApp1
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 60);
             this.button2.TabIndex = 4;
-            this.button2.Text = "  REGISTER";
+            this.button2.Text = "  SIGN UP";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);

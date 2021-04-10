@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+
+    <link rel="stylesheet" href="loginpage.css">
+    <script src="loginpage.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <button onclick="signIn()" class="btn" id="signIn">Sign In</button>
+        <button onclick="signOut()" class="btn" id="signOut">Sign Out</button>
+   
+    </div>
+</body>
+</html>
