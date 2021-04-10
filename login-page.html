@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RocknRoll+One">
+<style>
+    #header {
+        padding-left: 430px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        color: white;
+        text-shadow: 50px;
+        background-color: #10B981;
+        font-family: RocknRoll One; 
+    }
+
+    .font {
+        font-size: 25px;
+        padding-left: 450px;
+        text-shadow: 30px;
+    }
+
+    .box {
+        font-size: 20px;
+        padding-left: 10px;
+        border-radius: 40px;
+        border-color: #10B981;
+        background-color: #f1f7f1;
+    }
+
+    .button {
+        color: rgb(255, 255, 255);
+        background-color: #10B981;
+        font-family: Roboto;
+        border-radius: 2mm;
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    b {
+        padding-left: 500px;
+    }
+
+    .body {
+        background-image: url(https://cdn.wallpapersafari.com/88/91/NFkuMD.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body class="body">
+    <h1 id="header">
+        Login Page ( For Registered Users )</h1>
+    <hr style="padding-top: 2px;">
+    <br>
+    <div>
+        <form action="backend">
+            <div>
+                <label for="username" class="font">
+                    Username :
+                </label>
+                <input type="text" name="Username" id="username" class="box">
+            </div>
+            <br>
+            <div>
+                <label for="pass" class="font" style="padding-left: 457px;">
+                    Password :
+                </label>
+                <input type="password" name="Password" id="pass" class="box">
+            </div>
+            <br><br>
+            <div style="padding-left: 550px;">
+                <input type="submit" value="Login" class="button">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset" class="button">
+            </div>
+        </form>
+        <div style="padding-left: 450px; font-size: 20px;">
+            New User?
+            <a href="#" style="padding-left: 20px; color: blue;">
+                click here.....
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
