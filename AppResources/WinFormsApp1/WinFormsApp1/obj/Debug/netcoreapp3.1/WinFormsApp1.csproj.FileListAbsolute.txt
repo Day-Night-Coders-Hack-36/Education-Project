@@ -17,6 +17,5 @@ E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\net
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.SecondControl.resources
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.ThirdControl.resources
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.FourthControl.resources
-E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csprojAssemblyReference.cache
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.FifthControl.resources
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.SixthControl.resources
