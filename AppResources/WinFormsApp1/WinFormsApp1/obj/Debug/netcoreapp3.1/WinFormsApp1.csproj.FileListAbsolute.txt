@@ -4,7 +4,6 @@ E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\bin\Debug\net
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
-E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csprojAssemblyReference.cache
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form1.resources
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\net
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Properties.Resources.resources
 E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.FirstControl.resources
+E:\Hack36\Education-Project\AppResources\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.SecondControl.resources

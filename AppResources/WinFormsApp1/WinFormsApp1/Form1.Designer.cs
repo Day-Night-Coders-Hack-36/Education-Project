@@ -31,7 +31,7 @@ namespace WinFormsApp1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -48,6 +48,8 @@ namespace WinFormsApp1
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.firstControl1 = new WinFormsApp1.FirstControl();
+            this.firstControl2 = new WinFormsApp1.FirstControl();
+            this.secondControl1 = new WinFormsApp1.SecondControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +57,7 @@ namespace WinFormsApp1
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -68,14 +70,14 @@ namespace WinFormsApp1
             this.panel1.Size = new System.Drawing.Size(162, 566);
             this.panel1.TabIndex = 0;
             // 
-            // panel3
+            // SidePanel
             // 
-            this.panel3.BackColor = System.Drawing.Color.ForestGreen;
-            this.panel3.Location = new System.Drawing.Point(0, 45);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(25, 60);
-            this.panel3.TabIndex = 4;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.SidePanel.BackColor = System.Drawing.Color.ForestGreen;
+            this.SidePanel.Location = new System.Drawing.Point(0, 45);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(25, 60);
+            this.SidePanel.TabIndex = 4;
+            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button6
             // 
@@ -180,6 +182,7 @@ namespace WinFormsApp1
             this.button1.Text = "  HOME";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -306,11 +309,27 @@ namespace WinFormsApp1
             this.firstControl1.TabIndex = 16;
             this.firstControl1.Load += new System.EventHandler(this.firstControl1_Load);
             // 
+            // firstControl2
+            // 
+            this.firstControl2.Location = new System.Drawing.Point(539, 84);
+            this.firstControl2.Name = "firstControl2";
+            this.firstControl2.Size = new System.Drawing.Size(8, 8);
+            this.firstControl2.TabIndex = 17;
+            // 
+            // secondControl1
+            // 
+            this.secondControl1.Location = new System.Drawing.Point(162, 160);
+            this.secondControl1.Name = "secondControl1";
+            this.secondControl1.Size = new System.Drawing.Size(947, 406);
+            this.secondControl1.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 566);
+            this.Controls.Add(this.secondControl1);
+            this.Controls.Add(this.firstControl2);
             this.Controls.Add(this.firstControl1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkedListBox1);
@@ -345,7 +364,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
@@ -354,6 +373,8 @@ namespace WinFormsApp1
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label1;
         private FirstControl firstControl1;
+        private FirstControl firstControl2;
+        private SecondControl secondControl1;
     }
 }
 
