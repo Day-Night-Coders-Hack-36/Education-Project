@@ -47,6 +47,7 @@ namespace WinFormsApp1
             this.button12 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.firstControl1 = new WinFormsApp1.FirstControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -297,11 +298,20 @@ namespace WinFormsApp1
             this.label1.Text = "EducationMania By ~DayNightCoders";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
+            // firstControl1
+            // 
+            this.firstControl1.Location = new System.Drawing.Point(162, 174);
+            this.firstControl1.Name = "firstControl1";
+            this.firstControl1.Size = new System.Drawing.Size(938, 392);
+            this.firstControl1.TabIndex = 16;
+            this.firstControl1.Load += new System.EventHandler(this.firstControl1_Load);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 566);
+            this.Controls.Add(this.firstControl1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button12);
@@ -343,6 +353,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Label label1;
+        private FirstControl firstControl1;
     }
 }
 

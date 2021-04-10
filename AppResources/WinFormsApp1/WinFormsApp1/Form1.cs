@@ -90,5 +90,10 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void firstControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
