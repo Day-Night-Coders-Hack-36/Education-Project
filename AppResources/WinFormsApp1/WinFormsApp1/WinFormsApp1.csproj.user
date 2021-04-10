@@ -16,6 +16,9 @@
     <Compile Update="SecondControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="SixthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ThirdControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

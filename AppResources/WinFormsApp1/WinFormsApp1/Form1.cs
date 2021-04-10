@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace WinFormsApp1
 {
@@ -58,7 +59,12 @@ namespace WinFormsApp1
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo(@"https://www.instagram.com/de_nandan_/")
+            {
+                UseShellExecute = true
+            };
+            p.Start();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -125,5 +131,35 @@ namespace WinFormsApp1
             fourthControl1.BringToFront();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button5.Height;
+            SidePanel.Top = button5.Top;
+            sixthControl1.BringToFront();
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+        
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo(@"https://www.linkedin.com/in/nandan-kumar-731527208/")
+            {
+                UseShellExecute = true
+            };
+            p.Start();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var p = new Process();
+            p.StartInfo = new ProcessStartInfo(@"https://www.facebook.com/profile.php?id=100059024048843")
+            {
+                UseShellExecute = true
+            };
+            p.Start();
+        }
+    
     }
 }
